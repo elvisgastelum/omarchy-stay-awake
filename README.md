@@ -36,6 +36,23 @@ The widget goes in `centerEnd`, beside the clock. To move it:
 omarchy bar move elvisgastelum.stay-awake --section right
 ```
 
+### Hide the built-in indicator
+
+Omarchy's own indicators widget, left of the clock, also shows a mug while
+stay-awake is on, so you'd see two. To hide only that one and keep the other
+built-in indicators:
+
+```bash
+omarchy bar set omarchy.indicators items '["PasswordlessSudo","ScreenRecording","RemoteSession","Reminder","NightLight","Dnd"]' --json
+```
+
+To undo it and show every built-in indicator again, set `items` to an empty
+list:
+
+```bash
+omarchy bar set omarchy.indicators items '[]' --json
+```
+
 ## Settings
 
 Open the widget's settings from the bar editor, or set them from the command
