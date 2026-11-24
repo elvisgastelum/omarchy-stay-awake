@@ -16,6 +16,18 @@ It uses the same state as Omarchy's built-in stay-awake indicator and
 either of them also cancels a running timer, and a running timer survives a
 shell restart.
 
+## Screenshots
+
+| State | Bar |
+|-------|-----|
+| Idle allowed (dimmed) | ![Stay Awake off](screenshots/off.png) |
+| Staying awake | ![Stay Awake on](screenshots/on.png) |
+| Timed, with countdown | ![Stay Awake on a timer](screenshots/timed.png) |
+
+The tooltip shows the time left and what each click does next:
+
+![Stay Awake tooltip](screenshots/tooltip.png)
+
 ## Install
 
 On an Omarchy system:
