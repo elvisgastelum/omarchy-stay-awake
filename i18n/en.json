@@ -1,0 +1,13 @@
+{
+  "name": "Stay Awake",
+  "tooltip.off": "Idle lock and screensaver are on\nLeft-click: stay awake\nRight-click: stay awake for %1",
+  "tooltip.on": "Staying awake until turned off\nLeft-click: allow idle again\nRight-click: stay awake for %1",
+  "tooltip.timed": "Staying awake for %1 more\nLeft-click: allow idle now\nRight-click: %2",
+  "tooltip.next": "switch to %1",
+  "tooltip.nextOff": "allow idle now",
+  "duration.minutes": { "one": "%1 minute", "other": "%1 minutes" },
+  "duration.hours": { "one": "%1 hour", "other": "%1 hours" },
+  "duration.hoursMinutes": "%1 h %2 min",
+  "countdown.minutes": "%1m",
+  "countdown.hoursMinutes": "%1h %2m"
+}

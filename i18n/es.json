@@ -1,0 +1,13 @@
+{
+  "name": "Mantener despierto",
+  "tooltip.off": "Bloqueo por inactividad y salvapantallas activos\nClic izquierdo: mantener despierto\nClic derecho: mantener despierto %1",
+  "tooltip.on": "Despierto hasta que lo desactives\nClic izquierdo: permitir inactividad\nClic derecho: mantener despierto %1",
+  "tooltip.timed": "Despierto %1 más\nClic izquierdo: permitir inactividad ya\nClic derecho: %2",
+  "tooltip.next": "cambiar a %1",
+  "tooltip.nextOff": "permitir inactividad ya",
+  "duration.minutes": { "one": "%1 minuto", "other": "%1 minutos" },
+  "duration.hours": { "one": "%1 hora", "other": "%1 horas" },
+  "duration.hoursMinutes": "%1 h %2 min",
+  "countdown.minutes": "%1m",
+  "countdown.hoursMinutes": "%1h %2m"
+}

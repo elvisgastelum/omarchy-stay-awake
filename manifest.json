@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "elvisgastelum.stay-awake",
+  "name": "Stay Awake",
+  "version": "0.1.0",
+  "author": "Elvis Gastelum",
+  "license": "MIT",
+  "description": "A mug in the bar that keeps the system awake (no screensaver, no idle lock): left-click toggles it, right-click cycles timed presets with a countdown",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Stay Awake",
+    "description": "Keep the system awake indefinitely or for a set time",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "centerEnd",
+    "defaults": { "presets": "30,60,120", "showCountdown": true },
+    "schema": [
+      {
+        "key": "presets",
+        "type": "string",
+        "label": "Timed presets (minutes)",
+        "defaultValue": "30,60,120",
+        "description": "Comma-separated durations that right-click cycles through before turning off."
+      },
+      {
+        "key": "showCountdown",
+        "type": "boolean",
+        "label": "Show countdown",
+        "defaultValue": true,
+        "description": "Show the time left next to the mug while a timed preset runs."
+      }
+    ]
+  }
+}
